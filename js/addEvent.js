@@ -3,7 +3,7 @@
  */
 //define(function(require, exports, module) {
 var exports = {};
-    exports.addEvent = (function(window, undefined) {
+    exports.wheel = (function(window, undefined) {
         var _eventCompat = function(event) {
             var type = event.type;
             if (type == 'DOMMouseScroll' || type == 'mousewheel') {
@@ -41,4 +41,18 @@ var exports = {};
         }
         return function() {};
     })(window);
+
+
+    exports.browser = function(){
+        return window.navigator.userAgent.toLowerCase();
+    };
+    //exports.carousel = (function($){
+    //
+    //
+    //
+    //    var Fade = function(){
+    //
+    //    };
+    //}(jQuery));
+
 //});

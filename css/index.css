@@ -328,7 +328,7 @@ ul.leftWord{
     .right-pic li{
         float: left;
         display: block;
-        width: 495px;
+        width: 510px;
         height: 368px;
         overflow: hidden;
     }
@@ -555,6 +555,7 @@ ul.leftWord{
         top: 50%;
         z-index: 14;
         margin-top: 8px;
+        cursor: pointer;
     }
 
 }

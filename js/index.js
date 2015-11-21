@@ -3,13 +3,13 @@
  */
 
 $(function () {
-    var page = 0,                                   //第几页
-        bannerPage = 0,                               //第一页的index
+    var page = 0,                                       //第几页
+        bannerPage = 0,                                 //第一页的index
         rightPage = 0,                                  //第二页右边图片切换index
-        modOlIndex = 0,                             //第一页底部圆点
+        modOlIndex = 0,                                 //第一页底部圆点
         containInner = $(".container-inner"),           //盒子内部
-        picLi = $(".right-pic li"),                 //第二页右边图片li
-        picLiW = picLi.width();                     //第二页右边图片长度
+        picLi = $(".right-pic li"),                     //第二页右边图片li
+        picLiW = picLi.width();                         //第二页右边图片长度
     //初始化第二页右边图片ul长度
     $(".right-pic").css({
         width: picLi.length * picLiW,
@@ -43,12 +43,6 @@ $(function () {
             left: -picLiW
         });
 
-        ////根据屏幕高度，屏幕上东西相应调整
-        //if (browserH < 768) {
-        //    //第二页东西高度位置调整
-        //    $(".mod-2-inside").css("top", 0.2 * browserH);
-        //}
-
 
         //第三页随屏幕改变
         if($(".mod-pic-3").css("right") == "0px"){
@@ -64,27 +58,27 @@ $(function () {
                 "height": browserH
             });
             //当屏幕尺寸改变重置定位位置
-            $(".container-inner").css("top", -browserH * page);
+            containInner.css("top", -browserH * page);
         }, 10);
     });
 
     //获取mod-1模块ul的长度
-    var oli = $(".mod-1 ul li"),
-        _length = oli.length,
-        liW = $(window).width();
-    $(".mod-1 ul").css(
-        {
-            "width": _length * liW
-        }
-    );
+    //var oli = $(".mod-1 ul li"),
+    //    _length = oli.length,
+    //    liW = $(window).width();
+    //$(".mod-1 ul").css(
+    //    {
+    //        "width": _length * liW
+    //    }
+    //);
     $(".mod-ban-rel").css("width", $(window).width());
 
 
     //滚轮事件
     var bool = true;
     var s1;
-    exports.addEvent(document, "mousewheel", function (e) {
-        var conInner = $(".container-inner"),
+    exports.wheel(document, "mousewheel", function (e) {
+        var conInner = containInner,
             ofTab = $(".of-tab ul li");
         var _top = Number(conInner.css("top").substring(0, conInner.css("top").length - 2));
 
@@ -144,25 +138,21 @@ $(function () {
     //第一页banner切换
     $(".swiper-index-left").click(function () {
         var modLi = $(".mod-1 ul li");
-        bannerPage = modOlIndex;
         bannerPage = bannerPage == modLi.length - 1 ? 0 : bannerPage + 1;
-        modOlIndex = bannerPage;
         $(".mod-1 ol li").eq(bannerPage).addClass("modLiActive").siblings().removeClass("modLiActive");
         modLi.eq(bannerPage).fadeIn(800).css("z-index", 2).siblings().fadeOut(800).css("z-index", 0);
     });
     $(".swiper-index-right").click(function () {
-        bannerPage = modOlIndex;
         var modLi = $(".mod-1 ul li");
         bannerPage = bannerPage == 0 ? modLi.length - 1 : bannerPage - 1;
-        modOlIndex = bannerPage;
         $(".mod-1 ol li").eq(bannerPage).addClass("modLiActive").siblings().removeClass("modLiActive");
         modLi.eq(bannerPage).fadeIn(800).css("z-index", 2).siblings().fadeOut(800).css("z-index", 0);
     });
 
     $(".mod-1 ol li").mouseenter(function () {
-        modOlIndex = $(this).index();
+        bannerPage = $(this).index();
         var modLi = $(".mod-1 ul li");
-        modLi.eq(modOlIndex).fadeIn(800).css("z-index", 2).siblings().fadeOut(800).css("z-index", 0);
+        modLi.eq(bannerPage).fadeIn(800).css("z-index", 2).siblings().fadeOut(800).css("z-index", 0);
         $(this).addClass("modLiActive").siblings().removeClass("modLiActive");
     });
 
@@ -268,3 +258,35 @@ $(function () {
     })
 
 });
+
+//(function($){
+//    $(document).click(function(){
+//        alert(122);
+//    });
+//    alert(789);
+//}(jQuery));
+
+
+//var module1 = (function($){
+//    var me = {}, name = "wanglei";
+//
+//    me.alerwClick = function(){
+//        return name = "alerwClick Fn";
+//    };
+//
+//    me.write = function(){
+//        return name = "write Fn";
+//    };
+//    return me;
+//}(jQuery));
+//
+//module1.newFun = function(){
+//    alert("newFun");
+//};
+//
+//var module2 = (function(mod1){
+//    alert(module1.write());
+//    mod1.newFun();
+//}(module1));
+
+
