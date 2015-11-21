@@ -1,0 +1,1123 @@
+.of-nav{
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(255,255,255,.8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#C8ffffff,endcolorstr=#C8ffffff);
+}
+.header-inner{
+    padding: 0 4%;
+    overflow: hidden;
+}
+.of-logo{
+    width: 138px;
+    height: 46px;
+    background: url("../img/logo.png") center no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 4%;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/logo.png',  sizingMethod='scale');
+}
+.of-tab{
+    width: 60%;
+    height: 72px;
+    float: right;
+}
+.of-tab ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 68px;
+    cursor: pointer;
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Hiragino Sans GB", "冬青黑", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+
+}
+.container-inner{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/*/
+*
+*第一个模块/
+*/
+.mod-1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.swiper-index-left{
+    width: 35px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background: url(../img/module-1-s-3.png) center no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-1-s-3.png',  sizingMethod='scale');
+    z-index: 100;
+    cursor: pointer;
+}
+.swiper-index-right{
+    width: 35px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    background: url(../img/module-1-s-2.png) center no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-1-s-2.png',  sizingMethod='scale');
+    z-index: 100;
+    cursor: pointer;
+}
+.mod-1 ul{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mod-1 ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mod-ban-rel{
+    position: relative;
+    float: left;
+}
+.mod-bg-img{
+    /*width: 100%;*/
+    display: block;
+}
+.mod-ban-rel span{
+    width: 370px;
+    height: 176px;
+    position: absolute;
+    top: 24%;
+    left: 13%;
+}
+.mod-ban-rel span img{
+    width: 370px;
+    height: 176px;
+    display: block;
+}
+.activeRemove{
+    -webkit-animation-duration: 10ms !important;    //动画持续时间
+}
+
+#animate1{
+    -webkit-animation-duration: 1.5s;    //动画持续时间
+    -webkit-animation-delay: 2s;    //动画延迟时间
+}
+/*轮播图下面点*/
+.mod-1 ol{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    margin-left:-110px;
+    z-index: 102;
+}
+.mod-1 ol li{
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    background: url(../img/module-1-s-6.png) center no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-1-s-6.png',  sizingMethod='scale');
+    float: left;
+    cursor: pointer;
+}
+.modLiActive{
+    background: url(../img/module-1-s-7.png) center no-repeat!important;
+    background-size: 100% 100%!important;
+    -moz-background-size:100% 100%!important;
+    -webkit-background-size:100% 100%!important;
+    -o-background-size:100% 100%!important;
+    -ms-background-size:100% 100%!important;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-1-s-7.png',  sizingMethod='scale')!important;
+}
+/*第二个模块*/
+.mod-2{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.mod-2-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mod-2-left a.arrL{
+    width: 50px;
+    height: 34px;
+}
+.mod-2-left a.arrL img{
+    width: 50px;
+    height: 34px;
+}
+.mod-2-left a.up-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.mod-2-left a.down-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+.mod-2-word{
+    padding: 30px 0 30px 40px;
+    overflow: hidden;
+}
+ul.leftWord{
+    position: relative;
+}
+.leftWord li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.mod-2-right a.arrR{
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 203;
+}
+.mod-2-right a.arrR img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.mod-sm-lf{
+    left: 3%;
+    top: 40%;
+}
+.mod-sm-rt{
+    right: 3%;
+    top: 40%;
+}
+.right-pic{
+    position: absolute;
+    top: 0;
+}
+
+/*/第三个模块*/
+.mod-3{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.mod-3-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mod-3-arr-lf img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.mod-3-arr-rt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*第四个模块*/
+.mod-4{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.mod-4-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #bfcec9;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /*.container{*/
+        /*overflow: scroll;*/
+    /*}*/
+}
+@media only screen and (max-width: 1280px) {
+    .mod-2-inside{
+        width: 85%;
+        height: 385px;
+        position: absolute;
+        top: 50%;
+        margin-top: -192px;
+        left: 11%;
+        overflow: hidden;
+    }
+    .mod-2-left{
+        width: 420px;
+        height: 250px;
+        float: left;
+        position: relative;
+        margin-top: 60px;
+    }
+    .of-word-a{
+        width: 24%;
+        color: #ffffff;
+        font-size: 42px;
+        float: left;
+    }
+    .of-word-b{
+        width: 63%;
+        font-size: 13px;
+        color: #ffffff;
+        float: left;
+        line-height: 19px;
+        padding-left: 30px;
+    }
+    .of-word-c{
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        color: #ffffff;
+        padding-top: 35px;
+        padding-left: 15px;
+        line-height: 28px;
+    }
+    .mod-2-right{
+        width: 470px;
+        height: 365px;
+        position: relative;
+        float: right;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .right-pic li{
+        float: left;
+        display: block;
+        width: 495px;
+        height: 368px;
+        overflow: hidden;
+    }
+    .right-pic li span{
+        display: block;
+        padding: 20px;
+    }
+    .right-pic li img{
+        display: block;
+        margin: 0 auto;
+        width: 380px;
+        height: 280px;
+    }
+    .mod-2-right ol{
+        width: 184px;
+        height: 16px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: -92px;
+
+    }
+    .mod-2-right ol li{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin: 0 10px;
+        cursor: pointer;
+        background: url(../img/dot.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot.png',  sizingMethod='scale');
+    }
+    .dotActive{
+        background: url(../img/dot-w.png) center no-repeat !important;
+        background-size: 100% 100% !important;
+        -moz-background-size:100% 100% !important;
+        -webkit-background-size:100% 100% !important;
+        -o-background-size:100% 100% !important;
+        -ms-background-size:100% 100% !important;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot-w.png',  sizingMethod='scale') !important;
+    }
+
+    /*第四个模块媒体查询*/
+
+    .mod-4-inside{
+        width: 710px;
+        height: 432px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left:-355px;
+        margin-top: -190px;
+        overflow: hidden;
+    }
+    a.android{
+        position: absolute;
+        top: 90px;
+        left: 15%;
+        width: 230px;
+        height: auto;
+        display: block;
+        float: left;
+        cursor: pointer;
+    }
+
+    a.iphone{
+        position: absolute;
+        top: 90px;
+        right: 15%;
+        width: 230px;
+        height: auto;
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+    .perphone{
+        margin: 22px auto 0;
+        display: block;
+        width: 190px;
+    }
+    a.android:hover{
+        top: 80px;
+        left: 12%!important;
+        width: 250px!important;
+        height: auto!important;
+    }
+    a.iphone:hover{
+        top: 80px;
+        right: 12%!important;
+        width: 250px!important;
+        height: auto!important;
+    }
+    a.twoCode{
+        margin: 165px auto 0;
+        display: block;
+        width: 162px;
+    }
+    .mod-4-inside a img {
+        width: 100%;
+        display: block;
+    }
+    .mod-4-icon-lf{
+        width: 52px;
+        height: 42px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url(../img/module-3-s-1.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-1.png',  sizingMethod='scale');
+    }
+    .mod-4-icon-rt{
+        width: 52px;
+        height: 42px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(../img/module-3-s-2.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-2.png',  sizingMethod='scale');
+    }
+
+    .mod-4-record{
+        padding: 0 25px;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color:#546e65;
+        line-height: 30px;
+    }
+    .mod-4-record p{
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Hiragino Sans GB", "冬青黑", Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    /*第三个模块*/
+
+    .mod-pic-1{
+        width: 840px;
+        height: 430px;
+        position: absolute;
+        /*bottom: 45px;*/
+        top: 50%;
+        left: 50%;
+        margin-left: -420px;
+        margin-top: -183px;
+    }
+    .mod-pic-1 img{
+        width: 840px;
+        height: 100%;
+        /*width: 90.5%;*/
+        /*height: auto;*/
+        display: block;
+    }
+    .mod-3-mid{
+        width: 0;
+        /*background: rgba(0,0,0,.3);*/
+        position: relative;
+        z-index: 9;
+    }
+    .mod-3-mid .mod-pic-2{
+        width: 42px;
+        height: 367px;
+        position: absolute;
+        right: 0;
+        top: 240px;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .mod-3-mid .mod-pic-2 img{
+        width: 42px;
+        height: 367px;
+        display: block;
+        float: right;
+    }
+    
+    .mod-pic-3{
+        width: 100%;
+        height: 330px;
+        position: absolute;
+        /*right: -99%;*/
+        top: 50%;
+        z-index: 7;
+        margin-top: -135px;
+    }
+    .mod-3-mid .mod-pic-3 img{
+        width: 100%;
+        height: 330px;
+        display: block;
+        float: right;
+    }
+    .mod-3-arr-lf{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        cursor: pointer;
+        z-index: 14;
+        margin-top: 8px;
+    }
+
+    .mod-3-arr-rt{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        z-index: 14;
+        margin-top: 8px;
+    }
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1680px) {
+    .mod-2-inside{
+        width: 85%;
+        position: absolute;
+        height: 440px;
+        top: 50%;
+        margin-top: -220px;
+        left: 11%;
+        overflow: hidden;
+    }
+    .mod-2-left{
+        width: 500px;
+        height: 273px;
+        float: left;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .of-word-a{
+        width: 25%;
+        color: #ffffff;
+        font-size: 56px;
+        float: left;
+    }
+    .of-word-b{
+        width: 63%;
+        font-size: 13px;
+        color: #ffffff;
+        float: left;
+        line-height: 23px;
+        padding-left: 15px;
+    }
+    .of-word-c{
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        color: #ffffff;
+        padding-top: 30px;
+        padding-left: 15px;
+        line-height: 34px;
+    }
+    .mod-2-right{
+        width: 560px;
+        height: 440px;
+        position: relative;
+        float: right;
+        overflow: hidden;
+    }
+    .right-pic li{
+        float: left;
+        display: block;
+        width: 560px;
+        height: 398px;
+        overflow: hidden;
+    }
+    .right-pic li span{
+        display: block;
+        padding: 20px;
+    }
+    .right-pic li img{
+        display: block;
+        margin: 0 auto;
+        width: 485px;
+        height: 357px;
+    }
+    .mod-2-right ol{
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: -100px;
+
+    }
+    .mod-2-right ol li{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin: 0 10px;
+        cursor: pointer;
+        background: url(../img/dot.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot.png',  sizingMethod='scale');
+    }
+    .dotActive{
+        background: url(../img/dot-w.png) center no-repeat !important;
+        background-size: 100% 100% !important;
+        -moz-background-size:100% 100% !important;
+        -webkit-background-size:100% 100% !important;
+        -o-background-size:100% 100% !important;
+        -ms-background-size:100% 100% !important;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot-w.png',  sizingMethod='scale') !important;
+    }
+
+    /*第四个模块媒体查询*/
+
+    .mod-4-inside{
+        width: 884px;
+        height: 468px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left:-442px;
+        margin-top: -220px;
+        overflow: hidden;
+    }
+    a.android{
+        position: absolute;
+        top: 80px;
+        left: 15%;
+        width: 285px;
+        height: auto;
+        display: block;
+        float: left;
+        cursor: pointer;
+    }
+    a.iphone{
+        position: absolute;
+        top: 80px;
+        right: 15%;
+        width: 285px;
+        height: auto;
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+    .perphone{
+        margin: 22px auto 0;
+        display: block;
+        width: 210px;
+    }
+    a.android:hover{
+        top: 60px;
+        left: 12%!important;
+        width: 330px!important;
+        height: auto!important;
+    }
+    a.iphone:hover{
+        top: 60px;
+        right: 12%!important;
+        width: 330px!important;
+        height: auto!important;
+    }
+    a.twoCode{
+        margin: 175px auto 0;
+        display: block;
+        width: 178px;
+    }
+    .mod-4-inside a img {
+        width: 100%;
+        display: block;
+    }
+    .mod-4-icon-lf{
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url(../img/module-3-s-1.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-1.png',  sizingMethod='scale');
+    }
+    .mod-4-icon-rt{
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(../img/module-3-s-2.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-2.png',  sizingMethod='scale');
+    }
+
+    .mod-4-record{
+        padding: 0 30px;
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color:#546e65;
+        line-height: 40px;
+    }
+    .mod-4-record p{
+        font-size: 20px;
+        color: #ffffff;
+        font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Hiragino Sans GB", "冬青黑", Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    /*第三个模块*/
+
+    .mod-pic-1{
+        width: 936px;
+        height: 452px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -468px;
+        margin-top: -190px;
+    }
+    .mod-pic-1 img{
+        width: 936px;
+        height: 452px;
+        /*width: 90.5%;*/
+        /*height: auto;*/
+        display: block;
+    }
+    .mod-3-mid{
+        width: 0;
+        /*background: rgba(0,0,0,.3);*/
+        position: relative;
+        z-index: 9;
+    }
+    .mod-3-mid .mod-pic-2{
+        width: 50px;
+        height: 437px;
+        position: absolute;
+        right: 0;
+        top: 230px;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .mod-3-mid .mod-pic-2 img{
+        width: 50px;
+        height: 437px;
+        display: block;
+        float: right;
+    }
+    .mod-pic-3{
+        width: 100%;
+        height: 379px;
+        position: absolute;
+        /*right: -99%;*/
+        top: 50%;
+        z-index: 7;
+        margin-top: -150px;
+    }
+    .mod-3-mid .mod-pic-3 img{
+        width: 100%;
+        height: 379px;
+        display: block;
+        float: right;
+    }
+    .mod-3-arr-lf{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        cursor: pointer;
+        z-index: 14;
+        margin-top: 20px;
+    }
+
+    .mod-3-arr-rt{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        cursor: pointer;
+        z-index: 14;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 1680px){
+    .mod-2-inside{
+        width: 85%;
+        position: absolute;
+        height: 540px;
+        top: 50%;
+        left: 11%;
+        margin-top: -270px;
+        overflow: hidden;
+    }
+    .mod-2-left{
+        width: 590px;
+        height: 340px;
+        position: relative;
+        float: left;
+        margin-top: 80px;
+    }
+    .of-word-a{
+        width: 24%;
+        color: #ffffff;
+        font-size: 65px;
+        float: left;
+    }
+    .of-word-b{
+        width: 63%;
+        font-size: 15px;
+        color: #ffffff;
+        float: left;
+        line-height: 30px;
+        padding-left: 30px;
+    }
+    .of-word-c{
+        width: 100%;
+        float: left;
+        font-size: 20px;
+        color: #ffffff;
+        padding-top: 30px;
+        padding-left: 15px;
+        line-height: 40px;
+    }
+    .mod-2-right{
+        width: 760px;
+        height: 540px;
+        float: right;
+        position: relative;
+        margin-left: 50px;
+        overflow: hidden;
+    }
+    .right-pic li{
+        float: left;
+        display: block;
+        width: 760px;
+        height: 500px;
+        overflow: hidden;
+    }
+    .right-pic li span{
+        display: block;
+        padding: 20px;
+    }
+    .right-pic li img{
+        display: block;
+        margin: 0 auto;
+    }
+    .mod-2-right ol{
+        width: 224px;
+        height: 26px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: -112px;
+
+    }
+    .mod-2-right ol li{
+        width: 26px;
+        height: 26px;
+        float: left;
+        margin: 0 10px;
+        cursor: pointer;
+        background: url(../img/dot.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot.png',  sizingMethod='scale');
+    }
+    .dotActive{
+        background: url(../img/dot-w.png) center no-repeat !important;
+        background-size: 100% 100% !important;
+        -moz-background-size:100% 100% !important;
+        -webkit-background-size:100% 100% !important;
+        -o-background-size:100% 100% !important;
+        -ms-background-size:100% 100% !important;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/dot-w.png',  sizingMethod='scale') !important;
+    }
+
+    /*第四个模块媒体查询*/
+
+    .mod-4-inside{
+        width: 1260px;
+        height: 724px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left:-630px;
+        margin-top: -312px;
+        overflow: hidden;
+    }
+    a.android{
+        position: absolute;
+        top: 115px;
+        left: 15%;
+        width: 400px;
+        height: auto;
+        display: block;
+        float: left;
+        cursor: pointer;
+    }
+    a.iphone{
+        position: absolute;
+        top: 115px;
+        right: 15%;
+        width: 400px;
+        height: auto;
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+    a.android:hover{
+        top: 100px;
+        left: 10%!important;
+        width: 460px!important;
+        height: auto!important;
+    }
+    a.iphone:hover{
+        top: 100px;
+        right: 10%!important;
+        width: 460px!important;
+        height: auto!important;
+    }
+    a.twoCode{
+        margin: 260px auto 0;
+        display: block;
+        width: 244px;
+    }
+    .perphone{
+        margin: 30px auto 0;
+        display: block;
+        width: 278px;
+    }
+    .mod-4-inside a img {
+        width: 100%;
+        display: block;
+    }
+    .mod-4-icon-lf{
+        width: 80px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url(../img/module-3-s-1.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-1.png',  sizingMethod='scale');
+    }
+    .mod-4-icon-rt{
+        width: 80px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(../img/module-3-s-2.png) center no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        -o-background-size:100% 100%;
+        -ms-background-size:100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/module-3-s-2.png',  sizingMethod='scale');
+    }
+
+    .mod-4-record{
+        padding: 0 40px;
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color:#546e65;
+        line-height: 55px;
+    }
+    .mod-4-record p{
+        font-size: 26px;
+        color: #ffffff;
+        font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Hiragino Sans GB", "冬青黑", Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    /*第三个模块*/
+
+    .mod-pic-1{
+        width: 1430px;
+        height: 728px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -715px;
+        margin-top: -336px;
+    }
+    .mod-pic-1 img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .mod-3-mid{
+        width: 100%;
+        /*background: rgba(0,0,0,.3);*/
+        position: relative;
+        z-index: 9;
+    }
+    .mod-3-mid .mod-pic-2{
+        width: 60px;
+        height: 600px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -278px;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .mod-3-mid .mod-pic-2 img{
+        width: 60px;
+        height: 550px;
+        display: block;
+        float: right;
+    }
+    .mod-pic-3{
+        width: 100%;
+        height: 570px;
+        position: absolute;
+        /*right: -99%;*/
+        top: 50%;
+        margin-top: -258px;
+        z-index: 7;
+    }
+    .mod-3-mid .mod-pic-3 img{
+        width: 100%;
+        height: 570px;
+        display: block;
+        float: right;
+    }
+    .mod-3-arr-lf{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        margin-top: -20px;
+        cursor: pointer;
+        z-index: 14;
+    }
+
+    .mod-3-arr-rt{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        margin-top: -20px;
+        cursor: pointer;
+        z-index: 14;
+    }
+}
+
+
+
+
+
+
+
+
+
+
