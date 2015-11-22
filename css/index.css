@@ -501,7 +501,6 @@ ul.leftWord{
     }
     .mod-3-mid{
         width: 0;
-        /*background: rgba(0,0,0,.3);*/
         position: relative;
         z-index: 9;
     }

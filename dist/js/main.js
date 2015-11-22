@@ -3,7 +3,8 @@
  */
 
 
-;(function (win, $, e) {
+;
+(function (win, $, e) {
     //定义事件;
     var events = {
         "Click": "click",
